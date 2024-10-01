@@ -1,0 +1,23 @@
+body {
+nav {
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li a {
+        color: #333;
+        text-decoration: none;
+        display: block;
+        padding: 1rem 2vw;
+        border-top: solid 1px rgba(0,0,0,0.4);
+    }
+    li a:hover {
+        background-color: #eee;
+    }
+    li.active {
+        background-color: lighten($primaryColor, 40%);
+    }
+  }
+} //end nav
+
+} //end body

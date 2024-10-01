@@ -1,0 +1,23 @@
+body {
+  footer {
+    .content {
+      grid-template-rows: 1fr 1fr;
+      #address {
+        grid-column-start: 1 / span 6;
+        grid-row: 1;
+      }
+      #phone {
+        grid-column: 7 / span 6;
+        grid-row: 1;
+      }
+      #mission {
+        grid-row: 2;
+        grid-column: 1 / span 6;
+      }
+      #social {
+        grid-row: 2;
+        grid-column: 7 / span 6;
+      }
+    }
+  }
+}
